@@ -31,7 +31,7 @@ void writer() {
 		memcpy(addressMap, data, strlen(data) * sizeof(char));
 		cout << "\nStart reader program to read data from input data\n";
 		system("pause");
-		UnmapViewOfFile(addressMap); // завершаем проецирование файла
+		UnmapViewOfFile(addressMap); // завершение проецирования файла
 	}
 	else
 	{
