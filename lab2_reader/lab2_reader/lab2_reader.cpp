@@ -20,7 +20,7 @@ void reader() {
 	{
 		cout << "Data file: " << (char*)addressMap << endl << endl;
 		system("pause");
-		UnmapViewOfFile(addressMap); // завершение проецирование файла
+		UnmapViewOfFile(addressMap); // завершение проецирования файла
 	}
 	else
 	{
